@@ -3,7 +3,7 @@
 
 ini_set('display_errors', 'On');
 error_reporting(E_ALL);
-$connect = new mysqli('localhost', 'pbarisXa_admin0', 'Rm98UXrG', 'pbarisXa_drawff');
+$connect = new mysqli('localhost', 'x', 'x', 'x');
 if($connect->connect_error)
 	echo "success";
 $connect->query("SET NAMES UTF8");
